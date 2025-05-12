@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IQAir Widget 256x128</title>
+  <style>
+    .widget-container {
+      width: 256px;
+      height: 128px;
+      overflow: hidden;
+      position: relative;
+      border: 1px solid #ccc;
+    }
+    .widget-container iframe {
+      width: 1000px;
+      height: 2000px;
+      border: none;
+      transform: scale(0.256);
+      transform-origin: 0 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="widget-container">
+    <iframe src="https://widget.iqair.com/assets/widgets/clients/ligman2.html"></iframe>
+  </div>
+</body>
+</html>
